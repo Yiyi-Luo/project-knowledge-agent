@@ -1,0 +1,27 @@
+# config.py
+
+ANTHROPIC_API_KEY = "YOUR API KEY"
+
+# Obsidian vault path
+VAULT_PATH = r"C:\Users\Yiyi.Luo\Notes"
+
+# Anchor length
+ANCHOR_LENGTH = 500
+
+MODEL = "claude-sonnet-4-6"
+
+ENABLE_ERRORS_CHECKPOINT = False
+
+COST_PER_INPUT_TOKEN = 0.000003    # $3.00 per 1M input tokens (claude-sonnet-4-6)
+COST_PER_OUTPUT_TOKEN = 0.000015   # $15.00 per 1M output tokens (claude-sonnet-4-6)
+USAGE_LOG_PATH = r"C:\Users\Yiyi.Luo\PersonalMemoryAgent\usage_log.csv"
+
+PROJECT_SOURCE_FILES = {
+    "Personal Memory Agent": [
+        r"C:\Users\Yiyi.Luo\PersonalMemoryAgent\src\project_knowledge_agent.py",
+        r"C:\Users\Yiyi.Luo\PersonalMemoryAgent\config.py",
+    ],
+    # "LangGraph QC Agent": [
+    #     r"C:\path\to\qc_agent.py",
+    # ],
+}
