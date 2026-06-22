@@ -65,22 +65,14 @@ Obsidian-compatible knowledge base
 ```text
 project-knowledge-agent/
 ├── src/
-│   └── project_knowledge_agent/
-│       ├── __init__.py
-│       ├── pipeline.py
-│       ├── extractors.py
-│       ├── summarizers.py
-│       ├── indexing.py
-│       ├── vault.py
-│       └── config.py
-├── tests/
-├── examples/
-│   └── sample_vault/
+│   ├── project_knowldge_agent.py
+│   └── config.py
 ├── docs/
 ├── .env.example
 ├── .gitignore
-├── pyproject.toml
-└── README.md
+├── requirements.txt
+├── README.md
+└── LICENSE
 ```
 
 The current working implementation may initially remain in a single script. The modular layout above is the intended public repository structure as the code is cleaned and separated.
