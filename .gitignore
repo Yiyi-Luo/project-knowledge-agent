@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.local.py
+secrets.*
+*.pem
+*.key
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and generated usage data
+*.log
+usage_log.csv
+
+# Private/local data
+inbox/
+vault/
+notes/
+archive/
+private/
+data/
+exports/
+conversation_exports/
+
+# Generated artifacts
+code_index.md
+code_tree.txt
+file_index.md
